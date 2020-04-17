@@ -13,6 +13,3 @@ Or add this to your main .css file.
 ```css
 * { outline: 1px red solid !important; visibility: visible !important }
 ```
-
-
-

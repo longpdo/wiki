@@ -12,9 +12,8 @@
 * [Android](setup/android/README.md)
   * [Tasker](setup/android/tasker.md)
 
-## Programming Snippets <a id="programming"></a>
+## Programming Snippets
 
-* [HTML](programming/html.md)
-* [Sass/CSS](programming/sass-css.md)
-* [Shell](programming/shell.md)
-
+* [HTML](programming-snippets/html.md)
+* [Sass/CSS](programming-snippets/sass-css.md)
+* [Shell](programming-snippets/shell.md)

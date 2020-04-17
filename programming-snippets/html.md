@@ -9,8 +9,3 @@ Becoming a super hero is a fairly straight forward process:
 
 <p>Form Value: {{ form.value | json }}</p>
 ```
-
-
-
-
-
