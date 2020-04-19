@@ -32,3 +32,10 @@
 ## Soccer
 
 * [FC Bayern Live Radio](https://fcbayern.com/fcbayerntv/de/webradio)
+
+## Shipping information
+
+* [Deutsche Post Letters](https://www.deutschepost.de/de/b/brief_postkarte.html#)
+* [Deutsche Post Books/Goods](https://www.deutschepost.de/de/w/buecherundwarensendung.html)
+* [DHL Packages](https://www.dhl.de/de/privatkunden/pakete-versenden/deutschlandweit-versenden/preise-national.html)
+* [Hermes Packages](https://www.myhermes.de/preise/paeckchen-paket/)
