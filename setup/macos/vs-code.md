@@ -1,5 +1,17 @@
 # VS Code
 
+## Settings
+
+My VS Code settings are backed up with [mackup](https://github.com/lra/mackup) to Dropbox.
+
+To answer some general questions:
+
+* Font? [FiraCode Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+* Fontsize? 16
+* Tabs or Spaces? Spaces
+* Tabwidth? 2 (4 in Python)
+* Linewidth? No fixed width - using word wrap.
+
 ## Extensions
 
 ### Visual Extensions
@@ -11,11 +23,14 @@
 ### Productivity Extensions
 
 * [Prettier Now](https://github.com/remimarsal/prettier-now-vscode) - Automatically formats my code on save
+* [MetaGo](https://github.com/metaseed/metaGo.git) - Adds keyboard focused cursor navigation similar to vim easymotion
 * [GitLens](https://github.com/eamodio/vscode-gitlens) - Adds git blame annotations next to my code and offers several views to delve deep into the git history
+* [gitignore](https://marketplace.visualstudio.com/items?itemName=michelemelluso.gitignore) - Adds file to .gitignore via right click
 * [IntelliJ IDEA Key Bindings](https://github.com/kasecato/vscode-intellij-idea-keybindings) - Adds JetBrains IDEs key bindings, since I use WebStorm for bigger work-related projects
 * [Path Intellisense](https://github.com/ChristianKohler/PathIntellisense) - Autocompletes file paths and names
 * [Project Manager](https://github.com/alefragnani/vscode-project-manager) - Enables me to easily switch between projects
-* [Polacode](https://github.com/octref/polacode.git) - Makes beautiful screenshots of my code
+* [TabOut](https://github.com/albertromkes/tabout.git) - Enables to move out quotes, brackets, etc via Tab key
+* [Todo Tree](https://github.com/Gruntfuggly/todo-tree) - Shows TODO, FIXME, etc. in a tree view
 
 ### Front-End Extensions
 
@@ -32,13 +47,13 @@
 
 ### Documentation Extensions
 
-* [Auto-Open Markdown Preview](https://github.com/hnw/vscode-auto-open-markdown-preview) - Automatically opens preview when opening a .md file
-* [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) - Adds markdown shortcus and autocompletions
+* [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker) - Catches spelling errors
+* [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) - Adds markdown shortcuts and autocompletions
 * [markdownlint](https://github.com/DavidAnson/vscode-markdownlint.git) - Adds linter for Markdown
 * [LaTex Workshop](https://github.com/James-Yu/LaTeX-Workshop.git) - Enables working with Latex compiling .tex files easily with recipes
 
 ### Other Extensions
 
+* [Coderunner](https://github.com/formulahendry/vscode-code-runner.git) - Runs code snippets
 * [Python](https://github.com/Microsoft/vscode-python) - Adds features to support Python development such as linting, debugging, code formatting, refactoring and snippets
-
-## Settings
+* [WakaTime](https://github.com/wakatime/vscode-wakatime.git) - Tracks time and coding activity
