@@ -14,6 +14,8 @@
 
 ## Programming Snippets
 
+* [Git](programming-snippets/git.md)
 * [HTML](programming-snippets/html.md)
+* [Python](programming-snippets/python.md)
 * [Sass/CSS](programming-snippets/sass-css.md)
 * [Shell](programming-snippets/shell.md)
