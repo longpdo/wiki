@@ -16,3 +16,19 @@ git rebase upstream/master
 
 # may need: git push --force
 ```
+
+## Remove latest commits from repository
+
+To remove commits from local repository:
+
+```sh
+# Replace n with a number of the commits you want to check to remove
+git rebase -i HEAD~n
+```
+
+To undo pushed commits to remote repository:
+
+```sh
+# Undo latest commit on remote, to undo more commits add more ^ after HEAD
+git push -f origin HEAD^:master
+```

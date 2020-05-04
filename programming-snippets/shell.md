@@ -37,4 +37,23 @@ case $variable in
      *)
           commands
           ;;
-esac```
+esac
+```
+
+## Avoid If statements in Bash scripts with logical operators
+
+```bash
+# Instead of this IF ELSE statement
+if [ -f .zshrc ]; then
+  cat .zshrc
+  echo 'This is my profile.'
+else
+  echo "File does not exist."
+fi
+
+# This does the same
+# > The right side of && will only be evaluated if the exit status of the left side is zero (i.e. true)
+# > || is the opposite: it will evaluate the right side only if the left side exit status is non-zero (i.e. false).
+cat .zshrc && echo 'This is my profile.'
+cat .zshrc || echo 'File does not exist.'
+```
