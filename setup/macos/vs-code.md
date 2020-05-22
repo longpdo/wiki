@@ -22,6 +22,7 @@ To answer some general questions:
 
 ### Productivity Extensions
 
+* [EditorConfig for VS Code](https://github.com/editorconfig/editorconfig-vscode.git) - Adds support for [.editorconfig](https://editorconfig.org/) files for consistent coding styles for multiple developers working on the same project
 * [Prettier Now](https://github.com/remimarsal/prettier-now-vscode) - Automatically formats my code on save
 * [MetaGo](https://github.com/metaseed/metaGo.git) - Adds keyboard focused cursor navigation similar to vim easymotion
 * [GitLens](https://github.com/eamodio/vscode-gitlens) - Adds git blame annotations next to my code and offers several views to delve deep into the git history
@@ -30,7 +31,6 @@ To answer some general questions:
 * [Path Intellisense](https://github.com/ChristianKohler/PathIntellisense) - Autocompletes file paths and names
 * [Project Manager](https://github.com/alefragnani/vscode-project-manager) - Enables me to easily switch between projects
 * [TabOut](https://github.com/albertromkes/tabout.git) - Enables to move out quotes, brackets, etc via Tab key
-* [Todo Tree](https://github.com/Gruntfuggly/todo-tree) - Shows TODO, FIXME, etc. in a tree view
 
 ### Front-End Extensions
 
@@ -41,7 +41,7 @@ To answer some general questions:
 * [Live Server](https://github.com/ritwickdey/vscode-live-server.git) - Launches a local dev server for HTML pages with live reload
 * [Turbo Console Log](https://github.com/Chakroun-Anas/turbo-console-log) - Adds quick debugging logs with a shortcut
 * [JavaScript ES6 Snippets](https://github.com/xabikos/vscode-javascript) - Adds common ES6 code snippets
-* [Angular Snippets](https://github.com/johnpapa/vscode-angular-snippets) - Adds angular code snippets for TypeScript and HTML
+* [Angular Snippets](https://github.com/johnpapa/vscode-angular-snippets) - Adds Angular code snippets for TypeScript and HTML
 * [ESLint](https://github.com/Microsoft/vscode-eslint) - Adds linter for JavaScript
 * [TSLint](https://github.com/Microsoft/vscode-typescript-tslint-plugin) - Adds linter for TypeScript
 
@@ -56,4 +56,5 @@ To answer some general questions:
 
 * [Coderunner](https://github.com/formulahendry/vscode-code-runner.git) - Runs code snippets
 * [Python](https://github.com/Microsoft/vscode-python) - Adds features to support Python development such as linting, debugging, code formatting, refactoring and snippets
+* [shellcheck](https://github.com/timonwong/vscode-shellcheck.git) - Finds bugs in your shell scripts
 * [WakaTime](https://github.com/wakatime/vscode-wakatime.git) - Tracks time and coding activity
