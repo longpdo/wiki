@@ -1,1 +1,10 @@
-.drafts
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
+
+posts/.drafts
