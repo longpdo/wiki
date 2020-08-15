@@ -1,8 +1,0 @@
-{
-  "name": "wiki",
-  "version": "0.2",
-  "description": "My personal wiki",
-  "repository": "longpdo/wiki",
-  "license": "MIT",
-  "dependencies": {}
-}

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: VS Code
-has_children: true
 parent: MacOS Setup
 permalink: /macos/vscode
 ---
