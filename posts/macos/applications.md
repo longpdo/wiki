@@ -3,7 +3,7 @@ layout: default
 title: Applications
 parent: MacOS Setup
 permalink: /macos/applications
-last_modified_date: 2020-08-17T01:08:08
+last_modified_date: 2020-08-17T01:28:08
 ---
 
 # Applications
@@ -141,47 +141,11 @@ Zsh plugins:
 
 ### Quick Look Plugins
 
-* qlcolorcode
-* qlmarkdown
-* qlstephen
-* qlvideo
-* quicklook-json
-
-# Command Line Apps
-
-* [exa](https://github.com/ogham/exa) - Replacement for ls written in rust.
-* [ripgrep](https://github.com/BurntSushi/ripgrep) - Search text for patterns fast.
-* [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder.
-* [fd](https://github.com/sharkdp/fd) - Simple, fast and user-friendly alternative to 'find'.
-* [bat](https://github.com/sharkdp/bat) - Cat clone with wings.
-* [jq](https://github.com/stedolan/jq) - JSON processor.
-* [git](https://github.com/git/git) - Version control.
-* [youtube-dl](https://github.com/rg3/youtube-dl) - Download videos from YouTube and other video sites.
-* [trash](https://github.com/sindresorhus/trash) - Move files and folders to the trash.
-* [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages
-* [mas](https://github.com/mas-cli/mas) - CLI for mac app store.
-* [neofetch](https://github.com/dylanaraps/neofetch) - System information tool.
-
-* @angular/cli
-* fkill-cli
-* jekyll
-* lua
-* maven
-* node
-* mongodb
-* coreutils
-* ffmpeg
-* findutils
-* mackup
-* media-info
-* neovim
-* pipx
-* rename
-* ruby
-* scrcpy
-* tokei - Count lines of code quickly.
-* wget
-* brew
+* [QLColorCode](https://github.com/anthonygelibert/QLColorCode)
+* [QLMarkdown](https://github.com/toland/qlmarkdown/)
+* [QLStephen](https://github.com/whomwah/qlstephen)
+* [QLVideo](https://github.com/Marginal/QLVideo)
+* [QuickLookJSON](http://www.sagtau.com/quicklookjson.html)
 
 https://gist.github.com/romkatv/7cbab80dcbc639003066bb68b9ae0bbf
 [How to uninstall stock macOS applications](https://lifehacker.com/how-to-uninstall-annoying-macos-apps-1824253576)
