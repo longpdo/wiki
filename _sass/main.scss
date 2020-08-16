@@ -1,23 +1,33 @@
-//
 // Import external dependencies
-//
-@import "./vendors/normalize.scss/normalize.scss";
 
-//
-// Modules
-//
-@import "./support/support";
+@import "./vendors/normalize";
 
-@import "./color_schemes/dark";
-@import "./modules/base";
-@import "./modules/layout";
-@import "./modules/content";
-@import "./modules/navigation";
-@import "./modules/typography";
-@import "./modules/labels";
-@import "./modules/buttons";
-@import "./modules/search";
-@import "./modules/tables";
-@import "./modules/code";
-@import "./utilities/utilities";
-@import "./modules/print";
+// Abstracts
+
+@import "./abstracts/variables";
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+
+// Base
+
+@import "./base/base";
+@import "./base/colors";
+@import "./base/layout";
+@import "./base/typography";
+@import "./base/lists";
+@import "./base/spacing";
+
+// Layout
+
+@import "./layout/layout";
+
+// Components
+
+@import "./components/content";
+@import "./components/navigation";
+@import "./components/labels";
+@import "./components/buttons";
+@import "./components/search";
+@import "./components/tables";
+@import "./components/code";
+@import "./components/print";

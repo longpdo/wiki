@@ -1,6 +1,4 @@
-//
 // The basic two column layout
-//
 
 .side-bar {
   z-index: 0;
@@ -33,7 +31,7 @@
 
   @include mq(lg) {
     margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+       (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
     );
   }
 }
@@ -167,8 +165,6 @@
   );
 }
 
-// stylelint-disable selector-max-type
-
 body {
   position: relative;
   padding-bottom: $sp-10;
@@ -179,8 +175,6 @@ body {
     padding-bottom: 0;
   }
 }
-
-// stylelint-enable selector-max-type
 
 .site-footer {
   @include container;
