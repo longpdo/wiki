@@ -10,9 +10,9 @@
     {% endif %}
   {% endunless %}
 
-  <link rel="shortcut icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 
-  <link rel="stylesheet" href="{{ '/assets/css/default.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
 
   {% if site.ga_tracking != nil %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
@@ -27,9 +27,9 @@
   {% endif %}
 
   {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/vendors/lunr.min.js" | prepend: site.baseurl }}"></script>
   {% endif %}
-  <script type="text/javascript" src="{{ '/assets/js/wiki.js' | absolute_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 

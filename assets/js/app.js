@@ -69,7 +69,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '{{ "assets/js/search-data.json" | absolute_url }}', true);
+  request.open('GET', '{{ "/assets/js/search-data.json" | prepend: site.baseurl }}', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
@@ -444,18 +444,6 @@ function searchLoaded(index, docs) {
   });
 }
 {%- endif %}
-
-// Switch theme
-
-jtd.getTheme = function() {
-  var cssFileHref = document.querySelector('[rel="stylesheet"]').getAttribute('href');
-  return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
-}
-
-jtd.setTheme = function(theme) {
-  var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '{{ "assets/css/" | absolute_url }}' + theme + '.css');
-}
 
 // Document ready
 

@@ -1,13 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
@@ -18,8 +8,10 @@ description: My personal wiki
 baseurl: "/wiki" # the subpath of your site, e.g. /blog
 url: "https://longpdo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: pretty
-exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+permalink: none
+exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "gulpfile.js",
+          "node_modules",
+          "package.json", "package-lock.json"]
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/.png"
@@ -86,8 +78,6 @@ gh_edit_repository: "https://github.com/longpdo/wiki" # the github URL for your 
 gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
