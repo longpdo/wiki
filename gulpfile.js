@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var cssnano = require('gulp-cssnano');
 var prefix = require('gulp-autoprefixer');
@@ -14,8 +13,7 @@ function styles() {
     .src([ '_sass/*.scss' ])
     .pipe(
       sass({
-        includePaths: [ 'scss' ],
-        onError: browserSync.notify
+        includePaths: [ 'scss' ]
       })
     )
     .pipe(prefix([ 'last 3 versions', '> 1%', 'ie 8' ], { cascade: true }))
@@ -26,7 +24,7 @@ function styles() {
 }
 
 /**
- * Build Jekyll site
+ * Build and serve Jekyll site
  */
 function jekyll(done) {
   return cp
@@ -50,7 +48,6 @@ function jekyll(done) {
 
 /**
  * Watch source files for changes & recompile
- * Watch html/md files, run Jekyll & reload BrowserSync
  */
 function watch() {
   gulp.watch(
@@ -80,6 +77,6 @@ var watch = gulp.parallel(watch, watchStyles);
 
 /**
  * Default task, running just `gulp` will compile the sass,
- * compile the Jekyll site, launch BrowserSync & watch files.
+ * compile and serve the Jekyll site & watch files.
  */
 gulp.task('default', gulp.parallel(serve, watch));
