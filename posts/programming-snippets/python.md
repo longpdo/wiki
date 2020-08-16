@@ -2,6 +2,7 @@
 layout: default
 title: Python
 parent: Programming Snippets
+permalink: /programming-snippets/python
 ---
 
 # Python

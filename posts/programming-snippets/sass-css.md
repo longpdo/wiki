@@ -2,6 +2,7 @@
 layout: default
 title: Sass/CSS
 parent: Programming Snippets
+permalink: /programming-snippets/sass-css
 ---
 
 # Sass/CSS

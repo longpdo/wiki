@@ -13,9 +13,7 @@ I use a lot of applications on my mac. Below is a list of the ones that I love a
 
 ### [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
-> the browser which cares about your privacy
-
-* My main browser for all my surfing needs
+* My main browser for all my surfing needs - *which cares about your privacy*
 * I also Firefox for web developing as I find Firefox DevTools to be better than Chrome DevTools
 
 Firefox Extensions:

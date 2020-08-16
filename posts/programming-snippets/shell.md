@@ -2,6 +2,7 @@
 layout: default
 title: Shell
 parent: Programming Snippets
+permalink: /programming-snippets/shell
 ---
 
 # Shell
@@ -62,4 +63,18 @@ fi
 # > || is the opposite: it will evaluate the right side only if the left side exit status is non-zero (i.e. false).
 cat .zshrc && echo 'This is my profile.'
 cat .zshrc || echo 'File does not exist.'
+```
+
+## Fix EADDRINUSE: address already in use
+
+To find the process id (PID) associated with the port 4000
+
+```bash
+lsof -i tcp:4000
+```
+
+Then to kill the process with PID 84637
+
+```bash
+sudo kill -9 84637
 ```

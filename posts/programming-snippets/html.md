@@ -2,6 +2,7 @@
 layout: default
 title: HTML
 parent: Programming Snippets
+permalink: /programming-snippets/html
 ---
 
 # HTML

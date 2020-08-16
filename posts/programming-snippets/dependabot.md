@@ -2,6 +2,7 @@
 layout: default
 title: Dependabot
 parent: Programming Snippets
+permalink: /programming-snippets/dependabot
 ---
 
 # Dependabot

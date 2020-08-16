@@ -2,6 +2,7 @@
 layout: default
 title: Git
 parent: Programming Snippets
+permalink: /programming-snippets/git
 ---
 
 # Git
