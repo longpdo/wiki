@@ -3,18 +3,19 @@ layout: default
 title: Applications
 parent: MacOS Setup
 permalink: /macos/applications
+last_modified_date: 2020-08-17T01:08:08
 ---
 
 # Applications
 
-I use a lot of applications on my mac. Below is a list of the ones that I love and use the most in my day to day life.
+I use a lot of applications on my mac. Below is a list of the ones that use the most in my day to day life.
 
 ## Browsers
 
 ### [Firefox Browser Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
 * My main browser for all my surfing needs - *which cares about your privacy*
-* I also Firefox for web developing as I find Firefox DevTools to be better than Chrome DevTools
+* I also use Firefox for web developing as I find **Firefox DevTools** to be better than **Chrome DevTools**
 
 Firefox Extensions:
 
@@ -33,27 +34,24 @@ Firefox Extensions:
 
 ### [Google Chrome](https://www.google.de/intl/en_us/chrome/)
 
-* Necessary for frontend testing since most browsers run on Google’s open-source Chromium engine
-
-#### [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) - open source tool for automated testing of webapps
-
-* Using this for browser automation e.g. for web crawling
+* I only use Google Chrome for frontend testing, since most browsers run on Google’s open-source Chromium engine
+* Also using [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) for browser automation e.g. for web crawling
 
 ### [Safari](https://www.apple.com/lae/safari/)
 
 * My only browser without any Adblocker extensions installed
-* Using this whenever I need access to Anti-Adblocker sites or whenever I need to allow tracking cookies e.g. when I want to buy something with Cashback
+* Using this whenever I need access to Anti-Adblocker sites or whenever I need to allow tracking cookies e.g. when I want to buy something with Cashback via [Shoop](https://www.shoop.de/)
 
 ## Code
 
 ### [VS Code](https://github.com/Microsoft/vscode) - Code editor
 
 * My main editor that I use to write code in
-* My editor setup and extensions are described [here](https://longpdo.gitbook.io/wiki/setup/macos/vs-code)
+* My editor setup and extensions are described [here](https://longpdo.github.io/wiki/macos/vscode)
 
 ### [JetBrains IDEs](https://www.jetbrains.com/)
 
-* Mainly using JetBrains IDEs for their Refactoring capabilities and to get a clear separation between private side and work-related projects
+* Mainly using JetBrains IDEs for their Refactoring capabilities and to get a clear separation between work-related and private side projects
 * Using [WebStorm](https://www.jetbrains.com/webstorm/) for big work-related frontend projects
 * Using [IntelliJ IDEA](https://www.jetbrains.com/idea/) for big work-related backend projects
 * Using [PyCharm](https://www.jetbrains.com/pycharm/) for bigger Python projects
@@ -73,24 +71,27 @@ Zsh plugins:
 * [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Suggests commands as you type based on history and completions.
 * [Zsh Completions](https://github.com/zsh-users/zsh-completions) - Adds additional completion definitions
 * [Fast Syntax Highlighting](https://github.com/zdharma/fast-syntax-highlighting) - Adds feature rich syntax highlighting for Zsh
-* [History Search Multi Word](https://github.com/zdharma/history-search-multi-word) - Binds Ctrl-R to history search with multiple keywords
+* [History Search Multi Word](https://github.com/zdharma/history-search-multi-word) - Binds *Ctrl-R* to history search with multiple keywords
 
-### [Insomnia](https://insomnia.rest/)
+### [Insomnia](https://insomnia.rest/) - REST Client
 
-### [Robo 3T](https://robomongo.org/)
+* Just using this for work to quickly create REST requests and test APIs
+
+### [Robo 3T](https://robomongo.org/) - MongoDB Client
+
+* Using this in work to interact with the databases, as I always seem to forget the commands in **mongo** shell
 
 ## Finance
 
-### [Portfolio Performance](https://www.portfolio-performance.info/)
+### [Portfolio Performance](https://www.portfolio-performance.info/) - Investment Portfolio Tracker
+
+<!-- TODO add screenshots of different Dashboards -->
 
 ## Multimedia
 
 ### [Apple Music](https://music.apple.com/)
 
 ### [IINA](https://iina.io/) - Video player
-
-- Open source alternative to VLC built specifically for macOS.
-- It is based on [mpv](https://github.com/mpv-player/mpv) and has a more modern and native look than VLC.
 
 ### [Kodi](https://kodi.tv/)
 
@@ -104,9 +105,11 @@ Zsh plugins:
 
 ## Social
 
-slack
-whatsapp
-zoomus
+### [Slack](https://slack.com)
+
+### [Whatsapp](https://www.whatsapp.com/)
+
+### [Zoom](https://zoom.us/)
 
 ### [Apple Mail](https://support.apple.com/mail) - Email client
 
@@ -130,25 +133,11 @@ zoomus
 
 ### [Alfred](https://www.alfredapp.com) - Launcher
 
-- Alfred is a powerful launcher that you can program to show anything you want. It saved me a lot of time in my life.
-
 ### [Karabiner](https://pqrs.org/osx/karabiner/) - Keyboard remapping
-
-- Karabiner is an absolutely amazing app that [lets you remap keys at a very low level on macOS](https://medium.com/@nikitavoloboev/karabiner-god-mode-7407a5ddc8f6).
-- I have completely remapped my keyboard with it and every key on my keyboard is a custom modifier key that I can program to do what I want.
-- For example you can make caps lock into an escape key when pressed once but if you hold it, it becomes a [hyper key](https://medium.com/@nikitavoloboev/karabiner-god-mode-7407a5ddc8f6). Hyper key means that a key now serves two purposes, once when pressed alone and once when held down. So for example, for remapping caps lock, we can remap it to act as escape when pressed alone once but if we hold down on it, it becomes `⌘ + ⌃` modifier key. So `Caps Lock + F` becomes `⌘ + ⌃ + F`. And so on.
-- I take this idea further and define these kind of hyper keys for **every single key on my keyboard**.
-- I describe how I use Karabiner in detail [here](https://wiki.nikitavoloboev.xyz/macos/macos-apps/karabiner) and I generate [my configuration](https://github.com/nikitavoloboev/dotfiles/blob/master/karabiner/karabiner.edn) with a [Karabiner DSL](https://github.com/yqrashawn/GokuRakuJoudo#readme).
 
 ### [Bitwarden](https://bitwarden.com/) - Password manager
 
-- Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
-- No longer need to remember passwords and I now have a unique password for every website that I am signed up on whilst [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
-
 ### [Kap](https://github.com/wulkano/kap) - Screen recorder
-
-- An open source screen recorder I use to record GIFs.
-- Has keyboard support so I can quickly start and end recording of the GIF in one hotkey.
 
 ### Quick Look Plugins
 
